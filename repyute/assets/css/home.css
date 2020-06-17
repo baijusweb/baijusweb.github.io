@@ -1,0 +1,140 @@
+.home-wrapper {
+  margin-top: 75px;
+}
+.home-wrapper .banner {
+  background-color: #e4eeef;
+}
+.home-wrapper .banner {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.home-wrapper .banner .grid {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+.home-wrapper .banner .grid h1 {
+  color: #3d4553;
+  font-size: 40px;
+}
+.home-wrapper .banner .left-section {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  padding-right: 80px;
+}
+.home-wrapper .banner .right-section {
+  display: inline-block;
+  width: 50%;
+  background: url(../images/home-banner.png) no-repeat center center;
+  height: 400px;
+  background-size: contain;
+}
+.btn-wrapper {
+  margin-top: 40px;
+}
+section.say-hello {
+  text-align: center;
+}
+section.say-hello .wrapper {
+  margin-top: 70px;
+}
+section.say-hello .wrapper .content {
+  width: 33%;
+  display: inline-block;
+  padding: 0 20px;
+}
+section.say-hello .wrapper .content img {
+  width: 45px;
+  padding-bottom: 10px;
+}
+section.how-works {
+  background-color: #fafafa;
+}
+section.how-works .wrapper {
+  margin-top: 70px;
+}
+section.how-works .left-content {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 30px;
+}
+section.how-works .left-content .list {
+  position: relative;
+  margin-bottom: 30px;
+}
+section.how-works .left-content .list .icon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #e4eeef;
+  color: #1d2f51;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.how-works .left-content .list .content {
+  padding-left: 100px;
+}
+section.how-works .right-content {
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+}
+section.deals {
+  text-align: center;
+}
+section.deals .details {
+  padding-top: 70px;
+}
+section.deals .intro-text {
+  padding-top: 40px;
+}
+section.deals .details .content {
+  width: 33%;
+  display: inline-block;
+  padding: 0 20px;
+}
+section.deals .details .content img {
+  width: 35px;
+  padding-bottom: 10px;
+}
+section.invite {
+  background-color: #fafafa;
+  text-align: center;
+}
+section.invite .input-widget {
+  width: 620px;
+  margin: auto;
+  position: relative;
+}
+section.invite .input-widget input {
+  padding: 25px 15px;
+  width: 100%;
+  font-size: 18px;
+}
+section.invite .input-widget .btn {
+  position: absolute;
+  right: 0;
+  height: 51px;
+  background-color: #ec6955;
+  color: #ffffff;
+  padding: 0 50px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 0 4px 4px 0;
+}
+section.invite .input-widget .btn:hover {
+  background-color: #eb4949;
+}
+section.invite .input-widget p {
+  font-size: 12px;
+  opacity: .4;
+  padding-top: 8px;
+}
