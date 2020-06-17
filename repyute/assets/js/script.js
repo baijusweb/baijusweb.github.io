@@ -5,3 +5,9 @@ $(window).scroll(function () {
     $('header').removeClass('white-bg')
   }
 })
+
+$("#start").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#invite").offset().top -70
+  }, 800);
+});
