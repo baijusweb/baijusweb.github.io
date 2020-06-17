@@ -1,0 +1,39 @@
+.home-wrapper {
+  margin-top: 75px;
+}
+.home-wrapper .banner {
+  background-color: #e4eeef;
+}
+.business-wrapper .banner {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.business-wrapper .banner .grid {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+.business-wrapper .banner .grid h1 {
+  color: #3d4553;
+  font-size: 40px;
+}
+.business-wrapper .banner .left-section {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  padding-right: 80px;
+}
+.business-wrapper .banner .right-section {
+  display: inline-block;
+  width: 50%;
+  background: url(../images/business-banner-back.jpg) no-repeat center center;
+  height: 400px;
+  background-size: contain;
+}
+.btn-wrapper {
+  margin-top: 40px;
+}
+.btn-wrapper a{
+  cursor: pointer;
+}
